@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: blog-api-service
+  labels:
+    app: blog-api-api
+spec:
+  type: NodePort
+  ports:
+   - port: 5000
+     nodePort: 30002
+  selector:
+    app: blog-api-api

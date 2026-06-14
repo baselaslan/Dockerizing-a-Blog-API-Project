@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog-api-deployment
+  labels:
+    app: blog-api-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: blog-api-api
+  template:
+    metadata:
+      labels:
+        app: blog-api-api
+    spec:
+      containers:
+      - name: blog-api-container
+        image: localhost:32000/blog-api-api:v1
+        ports:
+        - containerPort: 5000
