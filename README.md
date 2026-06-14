@@ -2,6 +2,9 @@
 
 **Project Structure**
 
+## 📁 Project Structure
+
+```text
 blog-platform/
 ├── database/
 │   ├── postgres-deployment.yaml
@@ -31,3 +34,4 @@ blog-platform/
 │   └── grafana/
 │
 └── README.md
+```
