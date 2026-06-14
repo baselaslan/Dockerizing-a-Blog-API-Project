@@ -1,7 +1,7 @@
 # Dockerizing a Blog API Project
 
-Web user interface deployment
-REST API deployment
+1- Web user interface deployment
+2- REST API deployment
 Database deployment
 Configure TLS
 Create Helm Chart
