@@ -1,7 +1,6 @@
 # Dockerizing a Blog API Project
 
 **Project Structure**
-
 blog-platform/
 ├── database/
 │   ├── postgres-deployment.yaml
