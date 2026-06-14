@@ -1,4 +1,4 @@
-# Dockerizing a Blog API Project
+# Production-Ready Blog Platform on Kubernetes
 
 **Project Structure**
 
